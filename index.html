@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>맑은소프트</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+        <script type="text/javascript" src="./js/common.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    </head>
+    <body>
+        <div id="topNotice">
+            <div class="topNotice_in width1230">
+                <a href="https://blog.naver.com/malgnlms/222691090902" target="_blank">
+                    <img src="./img/topNotice.png" alt="브랜드 대상 5년 연속 수상">
+                </a>
+                <a href="https://blog.naver.com/malgnlms/222691090902" target="_blank">
+                    <p>자세히보기
+                        <img src="./img/moreArrow.png" alt="자세히보기 버튼">
+                    </p>
+                </a>
+                <a onclick="m_hide()" class="close">
+                    <img src="./img/notice_close.png" alt="닫기버튼">
+                </a>
+            </div>
+        </div>
+        <div id="wrap">
+          <div id="header">
+            <div class="head_in width1230">
+                <h1>
+                    <a href="/">
+                        <img src="./img/logo.png" alt="맑은소프트">
+                    </a>
+                </h1>
+                <a href="https://help.malgnsoft.com/main/index.jsp" class="customer" target="_blank">고객센터</a>
+                <a class="sitemap btnMenu_m"></a>
+                <!-- Menu -->
+                <div id="gnb">
+                    <ul class="menu">
+                        <li>
+                            <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01" class="gnb_1depth">클라우드 LMS</a>
+                            <div class="menu_depth">
+                                <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01">클라우드 LMS</a>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01#lms">공공기관</a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_02#lms">학원/인강</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_03#lms">기업교육</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_04#lms">협회</a>
+                                    </li>
+                                </ul>
+                                <a href="https://www.malgnsoft.com/cloud/price.jsp">가격</a>
+                                <a href="https://www.malgnsoft.com/cloud/portfolio.jsp">포트폴리오</a>
+                                <a href="https://www.malgnsoft.com/cloud/inquiry.jsp?type=41">견적/문의</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01" class="gnb_1depth">환급과정 LMS</a>
+                            <div class="menu_depth">
+                                <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01">환급과정 LMS</a>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01#lms">사업주환급</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_02#lms">내일배움카드</a>
+                                    </li>
+                                </ul>
+                                <a href="https://www.malgnsoft.com/process/price.jsp">가격</a>
+                                <a href="https://www.malgnsoft.com/process/portfolio.jsp">포트폴리오</a>
+                                <a href="https://www.malgnsoft.com/process/inquiry.jsp?type=46">견적/문의</a>
+                                <a href="https://www.malgnsoft.com/lms/" target="_blank" class="blank">
+                                    "스마트 혼합LMS"
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://www.malgnsoft.com/contents/player.jsp" class="gnb_1depth">콘텐츠 서비스</a>
+                            <div class="menu_depth">
+                                <a href="https://www.malgnsoft.com/contents/player.jsp">동영상 플레이어</a>
+                                <a href="https://www.malgnsoft.com/contents/production.jsp">동영상 제작</a>
+                                <a href="https://www.malgnsoft.com/contents/edu.jsp">KT 랜선에듀</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://www.malgnsoft.com/service/design.jsp?category=sec_01" class="gnb_1depth">부가 서비스</a>
+                            <div class="menu_depth">
+                                <a href="https://www.malgnsoft.com/service/design.jsp?category=sec_01">디자인 서비스</a>
+                                <a href="https://www.malgnsoft.com/service/payment.jsp">전자결제 서비스</a>
+                                <a href="https://www.malgnsoft.com/service/sms.jsp">SMS 서비스</a>
+                                <a href="https://www.malgnsoft.com/service/certi.jsp">안심본인인증</a>
+                                <a href="https://www.malgnsoft.com/service/ipin.jsp">IPIN인증</a>
+                                <a href="https://zendesk.malgnsoft.com/" target="_blank">
+                                    "젠데스크"
+                                    <img src="./img/blank_icon.gif" style="margin-left: 5px">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://www.malgnsoft.com/about/about.jsp" class="gnb_1depth">회사소개</a>
+                            <div class="menu_depth">
+                                <a href="https://www.malgnsoft.com/about/about.jsp">맑은 소프트 소개</a>
+                                <a href="https://www.malgnsoft.com/about/location.jsp">오시는 길</a>
+                                <a href="https://www.malgnsoft.com/about/news.jsp">소식 & 언론보도</a>
+                                <a href="https://www.malgnsoft.com/about/recruit.jsp">인재채용</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://help.malgnsoft.com/main/index.jsp" target="_blank" class="gnb_1depth none">
+                                "고객센터"
+                            </a>
+                            <div class="menu_depth">
+                                <a href="https://help.malgnsoft.com/main/index.jsp" class="blank" target="_blank">고객센터</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="gnb_pro">
+                        <h3>홈페이지 리뉴얼 이벤트</h3>
+                        <span>
+                            <img src="./img/gnb_date.gif" alt="세미나 기간">
+                            "2022년 05월 15일까지"
+                        </span>
+                        <p>
+                            " KT랜선에듀 라이선스 1개 무료 "
+                            <br>
+                            " + 참여자 100% 경품 증정 "
+                        </p>
+                        <a href="https://www.malgnsoft.com/about/news_view.jsp?id=479#contents">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <!-- Menu -->
+                    <!-- 메인슬라이드 -->
+                    <!-- 메인 슬라이드_end -->
+                    <div class="section_quick" style="display: none;">
+                        <ul>
+                            <li>
+                                <a href="#portfolio" class="_mPS2id-h">포트폴리오</a>
+                            </li>
+                            <li>
+                                <a href="#partner" class="_mPS2id-h">공식파트너</a>
+                            </li>
+                            <li>
+                                <a href="#service" class="_mPS2id-h">LMS특장점</a>
+                            </li>
+                            <li>
+                                <a href="#solution" class="_mPS2id-h">LMS고객군</a>
+                            </li>
+                            <li>
+                                <a href="#demo" class="_mPS2id-h">체험하기</a>
+                            </li>
+                            <li>
+                                <a href="#price" class="_mPS2id-h">LMS가격</a>
+                            </li>
+                            <li>
+                                <a href="#news" class="_mPSid-h">소식&언론보도</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js" integrity="sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <div id="visual" role="toolbar">
+                        <ul class="sub_imgbox slick-initialized slick-slider slick-dotted">
+                            <div aria-live="polite" class="slick-list draggable">
+                                <div class="slick-track">
+                                    <li class="slick-slide slick-cloned">
+                                        <div class="videoArea">
+                                            <a onclick="show_main()" tabindex="-1">
+                                                <img src="./img/video_blank.png" style="background-image:url('./img/visual_video.jpg');">
+                                            </a>
+                                        </div>
+                                        <div class="text_area">
+                                            <span>
+                                                언택트 시대의 학습방법 '이러닝 플랫폼'
+                                            </span>
+                                            <h2>
+                                                SBSiz 생생경제
+                                                <br>
+                                                정보톡톡에 소개된
+                                                <br>
+                                                클라우드 LMS
+                                            </h2>
+                                            <a href="https://blog.naver.com/malgnlms/222485374294" target="_blank" class="moreBtn" tabindex="-1">
+                                                <span>더보기</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="cover01 slick-slide">
+                                        <div class="img_area">
+                                            <div class="img img1">
+                                                <img src="./img/cover01_img01.png">
+                                            </div>
+                                            <div class="img img2">
+                                                <img src="./img/cover01_img02.png">
+                                            </div>
+                                            <div class="img img3">
+                                                <img src="./img/cover01_img03.png">
+                                            </div>
+                                        </div>
+                                        <div class="text_area">
+                                            <span>
+                                                국내 1위 이러닝 클라우드 플랫폼
+                                            </span>
+                                            <h2>
+                                                맑은소프트 LMS로
+                                                <br>
+                                                최상의 교육 서비스를
+                                                <br>
+                                                제공하세요!
+                                            </h2>
+                                            <p>홈페이지, 콘텐츠 제작은 물론, 학습 관리와 교육 판매까지</p>
+                                            <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01" class="moreBtn" tabindex="0">
+                                                <span>더보기</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="cover02 slick-slide">
+                                        <div class="img_area">
+                                            <div class="img img1">
+                                                <img src="./img/cover02_img01.png">
+                                            </div>
+                                            <div class="img img2">
+                                                <img src="./img/cover02_img02.png">
+                                            </div>
+                                            <div class="img img3">
+                                                <img src="./img/cover02_img03.png">
+                                            </div>
+                                            <div class="img img4">
+                                                <img src="./img/cover02_img04.png">
+                                            </div>
+                                            <div class="img img5">
+                                                <img src="./img/cover02_img05.png">
+                                            </div>
+                                        </div>
+                                        <div class="text_area">
+                                            <span>
+                                                한국산업인력공단에서 인정한 환급 솔루션
+                                            </span>
+                                            <h2>
+                                                원격 훈련 사업의 선두주자
+                                                <br>
+                                                국내 1위 맑은소프트와
+                                                <br>
+                                                시작하세요!
+                                            </h2>
+                                            <p>합리적인 비용으로 자동 업데이트는 물론 손쉬운 운영까지!</p>
+                                            <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01" class="moreBtn" tabindex="-1">
+                                                <span>더보기</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="slick-slide">
+                                        <div class="videoArea">
+                                            <a onclick="show_main()" tabindex="-1">
+                                                <img src="./img/video_blank.png" style="background-image:url('./img/visual_video.jpg');">
+                                            </a>
+                                        </div>
+                                        <div class="text_area">
+                                            <span>
+                                                언택트 시대의 학습방법 '이러닝 플랫폼'
+                                            </span>
+                                            <h2>
+                                                SBSiz 생생경제
+                                                <br>
+                                                정보톡톡에 소개된
+                                                <br>
+                                                클라우드 LMS
+                                            </h2>
+                                            <a href="https://blog.naver.com/malgnlms/22485374294" target="_blank" class="moreBtn" tabindex="-1">
+                                                <span>더보기</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="cover01 slick-slide slick-cloned">
+                                        <div class="img_area">
+                                            <div class="img img1">
+                                                <img src="./img/cover01_img01.png">
+                                            </div>
+                                            <div class="img img2">
+                                                <img src="./img/cover01_img02.png">
+                                            </div>
+                                            <div class="img img3">
+                                                <img src="./img/cover01_img03.png">
+                                            </div>
+                                        </div>
+                                        <div class="text_area">
+                                            <span>
+                                                국내 1위 이러닝 클라우드 플랫폼
+                                            </span>
+                                            <h2>
+                                                맑은소프트 LMS로
+                                                <br>
+                                                최상의 교육 서비스를
+                                                <br>
+                                                제공하세요!
+                                            </h2>
+                                            <p>홈페이지, 콘텐츠 제작은 물론, 학습 관리와 교육 판매까지!</p>
+                                            <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01" class="moreBtn" tabindex="-1">
+                                                <span>더보기</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                            <ul class="slick-dots" role="tablist" style="display: block;">
+                                <li class="action slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigateion20" id="slick-slide20">
+                                    <button type="button" data-role="none" role="button" tabindex="0">1</button>
+                                </li>
+                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigateion21" id="slick-slide21" class="action">
+                                    <button type="button" data-role="none" role="button" tabindex="0">2</button>
+                                </li>
+                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigateion22" id="slick-slide22" class="action">
+                                    <button type="button" data-role="none" role="button" tabindex="0">3</button>
+                                </li>
+                            </ul>
+                        </ul>
+                        <div class="b_btn play" style="background-image: url('./img/btn-stop.png');"></div>
+                    </div>
+                    <!-- visual -->
+                    <div id="portfolio" class="compad ani_effect _mPS2id-t action">
+                        <h3 class="title">
+                            맑은소프트는
+                            <br>
+                            <b class="blue bold">250개의 고객사</b>
+                            <b class="bold">와 함께 성장 중</b>
+                        </h3>
+                        <div class="list_cont effect_cont delay1 mCustomScrollbar _mCS_1" id="portfolio_list">
+                            <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_horizontal mCSB_inside" style="max-height: none;" tabindex="0">
+                                <div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px; width: 6321px; min-width: 100%; overflow-x: inherit;" dir="ltr">
+                                  <dl>
+                                    <a href="https://class.sebasi.co.kr" target="_blank">
+                                      <span class="cate">학원/인강</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img1.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#(주)세상을바꾸는시간15분</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>세바시 강연자가 만드는 특별한 클래스</p>
+                                        <h4>세바시 클래스</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://iedu.fursys.com" target="_blank">
+                                      <span class="cate">기업교육</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img2.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#일룸</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>일룸, 가구를 만듭니다.</p>
+                                        <h4>일룸</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.ettc.co.kr" target="_blank">
+                                      <span class="cate">공공기관</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img3.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#EBS원격교육연수원</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>대한민국 1등 콘텐츠 EBS원격교육연수원</p>
+                                        <h4>EBS원격교육연수원</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://edu.hyundai-ngv.com" target="_blank">
+                                      <span class="cate">기업교육</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img4.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#현대NGV [환급형 LMS 시스템]</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>자동차 산업의 기술 인재 육성</p>
+                                        <h4>현대자동차 - 현대NGV</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://edu.chunjae.co.kr" target="_blank">
+                                      <span class="cate">사업주환급</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img5.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#천재교육</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>4차 산업혁명 전문 인재양성</p>
+                                        <h4>천재교육</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://onlineacademy.canon-ci.co.kr" target="_blank">
+                                      <span class="cate">기업교육</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img6.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#캐논코리아(주)</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>사진문화확산의 끊임없는 연구와 노력</p>
+                                        <h4>캐논코리아</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://academy.sba.kr" target="_blank">
+                                      <span class="cate">공공기관</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img7.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#서울산업진흥원</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>서울미래를 이끌어갈 인재양성</p>
+                                        <h4>서울산업진흥원(SBA)</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.mywisdomedu.com" target="_blank">
+                                      <span class="cate">사업주환급</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img8.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#쿠쿠 위즈덤 에듀</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>비대면 시대 직무능력향상</p>
+                                        <h4>쿠쿠홈시스 주식회사</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://school.ablearn.kr" target="_blank">
+                                      <span class="cate">기업교육</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img9.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#에이블런</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>과학기술 정보통신부 인증!</p>
+                                        <h4>에이블런</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://shaiedu.or.kr" target="_blank">
+                                      <span class="cate">사업주환급</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img10.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#안전보건진흥원</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>중대재해처벌법 예방 맞춤형 교육</p>
+                                        <h4>안전보건진흥원</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.startyours.co.kr" target="_blank">
+                                      <span class="cate">사업주환급</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img11.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#언더독스</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>업교육경험 바탕의 No.1 창업교육</p>
+                                        <h4>언더독스</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.e-itwill.com" target="_blank">
+                                      <span class="cate">내일배움카드</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img12.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#(주)유니윌</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>IT전문인력 ,전자금융사업 교육</p>
+                                        <h4>유니윌</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://lms.knsmartcampus.com" target="_blank">
+                                      <span class="cate">내일배움카드</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img13.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#(주)케이에이치정보교육원</p>
+                                          <p>#외주</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>NCS기반의 실무중심의 지식과 기술</p>
+                                        <h4>KH정보교육원</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.dodoon.co.kr" target="_blank">
+                                      <span class="cate">학원/인강</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img14.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#두두온</p>
+                                          <p>#기본형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>헬스케어라이프스타일 융복합 전문가</p>
+                                        <h4>두두온</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.ipsikingon.com" target="_blank">
+                                      <span class="cate">학원/인강</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img15.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#디스케</p>
+                                          <p>#기본형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>입시와 아카데미</p>
+                                        <h4>디스케</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://ssc.seoul.kr" target="_blank">
+                                      <span class="cate">공공기관</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img16.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#서울스마트캠퍼스</p>
+                                          <p>#기본형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>서울디지털재단의 다양한 시민참여</p>
+                                        <h4>서울스마트캠퍼스</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.dataai.kr" target="_blank">
+                                      <span class="cate">기업교육</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img17.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#빅데이터 러닝센터</p>
+                                          <p>#기본형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>데이터활용역량진단을 통한 맞춤형 교육</p>
+                                        <h4>데이타솔루션</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://edu.korailtravel.com" target="_blank">
+                                      <span class="cate">공공기관</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img18.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#코레일관광개발(주)</p>
+                                          <p>#기본형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>코레일관광개발 온라인 교육 홈페이지</p>
+                                        <h4>코레일관광개발(주)</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://www.nextcampus.kr" target="_blank">
+                                      <span class="cate">기업교육</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img19.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#(주)넥스트캠퍼스</p>
+                                          <p>#기본형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>Beyond Learning, Better Perfotmance</p>
+                                        <h4>넥스트캠퍼스</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                  <dl>
+                                    <a href="https://edu.seochowomen.kr" target="_blank">
+                                      <span class="cate">공공기관</span>
+                                      <dt>
+                                        <img src="./img/data/file/portfolio_img20.jpg" alt onerror="this.src='./img/story_iimg01.jpg'" class="mCS_img_loaded">
+                                        <div class="hover">
+                                          <p>#서초여성가족플라자 서초센터</p>
+                                          <p>#맞춤형</p>
+                                          <span>
+                                            "웹사이트방문"
+                                            <img src="./img/moreArrow.png" alt="웹사이트방문" class="mCS_img_loaded">
+                                          </span>
+                                        </div>
+                                      </dt>
+                                      <dd>
+                                        <p>서초여성과 가족의 E-클래스</p>
+                                        <h4>서초여성가족플라자 서초센터</h4>
+                                      </dd>
+                                    </a>
+                                  </dl>
+                                </div>
+                                <div id="mCSB_1_scrollbar_horizontal" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_horizontal" style="display: block;">
+                                  <div class="mCSB_draggerContainer">
+                                    <div id="mCSB_1_dragger_horizontal" class="mCSB_dragger" style="position:absolute; min-width:30px; width: 211px; left: 909px; display: block; max-width: 1110px;">
+                                      <div class="mCSB_dragger_bar"></div>
+                                    </div>
+                                    <div class="mCSB_draggerRail"></div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://www.malgnsoft.com/cloud/protfolio.jsp#portfolio" class="moreBtn_plus">
+                          <span>
+                            더보기
+                          </span>
+                        </a>
+                    </div>
+                    <div id="partner" class="compad ani_effect _mPS2id-t action">
+                      <div class="width1230">
+                        <h3 class="title">
+                          맑은소프트
+                          <b class="bold">최고의</b>
+                          <b class="bold blue">공식 파트너</b>
+                        </h3>
+                        <div class="partner_cont effect_cont delay1">
+                          <dl>
+                            <dt>
+                              <img src="./img/partner_img01.jpg" alt="KT">
+                            </dt>
+                            <dd>
+                              고품질의 화상 서비스의
+                              <br>
+                              KT랜선에듀
+                            </dd>
+                          </dl>
+                          <dl>
+                            <dt>
+                              <img src="./img/partner_img02.jpg" alt="Naver Cloud">
+                            </dt>
+                            <dd>
+                              안정적인 서비스 환경의
+                              <br>
+                              네이버 클라우드 서버
+                            </dd>
+                          </dl>
+                          <dl>
+                            <dt>
+                              <img src="./img/partner_img03.jpg" alt="Zoom">
+                            </dt>
+                            <dd>
+                              비디오 기반의
+                              <br>
+                              커뮤니케이션 플랫폼
+                            </dd>
+                          </dl>
+                          <dl>
+                            <dt>
+                              <img src="./img/partner_img04.jpg" alt="Zendesk">
+                            </dt>
+                            <dd>
+                              최상의 고객 서비스
+                              <br>
+                              지원 시스템
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="service" class="compad ani_effect _mPS2id-t action">
+                      <div class="width1230">
+                        <h3 class="title">
+                          <b class="bold blue">통합 이러닝 서비스로</b>
+                          <br>
+                          LMS 구축 어려움 없이
+                          <b class="bold">한 번에 해결</b>
+                        </h3>
+                        <div class="serviceWrap">
+                          <ul class="slick-dots effect_cont slick-nav nav1 slick-initialized slick-slider" style="padding-left: 0;">
+                            <div aria-live="polite" class="slick-list draggable">
+                              <div class="slick-track" style="opacity:1; width:1260px; transform: translate3d(0px 0px 0px);">
+                                <li class="swiper-slide one slick-slide">
+                                  <a>
+                                    국내 최고의
+                                    <br>
+                                    안정성과 보안 시스템
+                                  </a>
+                                </li>
+                                <li class="swiper-slide two slick-slide">
+                                  <a>
+                                    최신 디자인의
+                                    <br>
+                                    홈페이지 제공
+                                  </a>
+                                </li>
+                                <li class="swiper-slide three slick-slide">
+                                  <a>
+                                    고품질의
+                                    <br>
+                                    콘텐츠 제작 및 임대
+                                  </a>
+                                </li>
+                                <li class="swiper-slide four slick-slide">
+                                  <a>
+                                    라이브 회상강의 등
+                                    <br>
+                                    다양한 서비스 연동
+                                  </a>
+                                </li>
+                                <li class="swiper-slide five slick-slide">
+                                  <a>
+                                    매월 세미나 강연,
+                                    <br>
+                                    운영&마케팅 교육
+                                  </a>
+                                </li>
+                                <li class="swiper-slide six slick-slide">
+                                  <a>
+                                    신속한 응대
+                                    <br>
+                                    고객센터 운영
+                                  </a>
+                                </li>
+                              </div>
+                            </div>
+                          </ul>
+                          <div class="service_cont effect_cont delay1 service-for for1 slick-initialized slick-slider">
+                            <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display:block;">Previous</button>
+                            <div aria-live="polite" class="slick-list draggble">
+                              <div class="slick-track" role="listbox" style="opacity: 1; width: 7380px;">
+                                <dl class="slick-slide">
+                                  <dt>
+                                    <img src="./img/service_img01.png" alt="국내 최고의 안정성과 강력한 보안 시스템">
+                                  </dt>
+                                  <dd>
+                                    <h4>국내 최고의 안정성과 강력한 보안 시스템</h4>
+                                    <p class="stxt">
+                                      안정된 클라우드 서버와 전문개발팀의 서버 장애관리로 수십만 이상의 동시 접속이 가능하며, 해킹 / 랜섬웨어 / 데이터 4 중 백업 등 최고의 솔루션을 제공합니다
+                                    </p>
+                                    <ul class="tag_cont">
+                                      <li>#아마존AWS</li>
+                                      <li>#24시간 보안관제</li>
+                                      <li>#전문 개발팀의 서버 장애관리</li>
+                                    </ul>
+                                  </dd>
+                                </dl>
+                                <dl class="slick-slide">
+                                  <dt>
+                                    <img src="./img/service_img02.png" alt="최신 디자인의 홈페이지 제공">
+                                  </dt>
+                                  <dd>
+                                    <h4>최신 디자인의 홈페이지 제공</h4>
+                                    <p class="stxt">
+                                      최신 디자인 트랜드가 반영된 반응형 사이트로 별도의 외부 개발자나 디자이너 없이 즉시 오픈이 가능하며, 맞춤형 진행 시 디자인 전문업체를 통해 맞춤 제작이 가능합니다.
+                                    </p>
+                                    <ul class="tag_cont">
+                                      <li>#즉시 오픈</li>
+                                      <li>#반응형 웹(WEB)</li>
+                                      <li>#플로즈</li>
+                                    </ul>
+                                    <div>
+                                      <a href="https://www.malgnsoft.com/service/design.jsp?category=sec_01" tabindex="0">
+                                        디자인서비스 더보기
+                                      </a>
+                                    </div>
+                                  </dd>
+                                </dl>
+                                <dl class="slick-slide">
+                                  <dt>
+                                    <img src="./img/service_img03.png" alt="고품질의 콘텐츠 제작 및 임대">
+                                  </dt>
+                                  <dd>
+                                    <h4>고품질의 콘텐츠 제작 및 임대</h4>
+                                    <p class="stxt">
+                                      전자칠판을 활용한 현장감 있는 고품질의 콘텐츠 제작이 가능하며, 3대 법정 교육 콘텐츠와 내부 교육 콘텐츠를 임대하여 보다 풍성한 교육 서비스 제공할 수 있습니다.
+                                    </p>
+                                    <ul class="tag_cont">
+                                      <li>#전자칠판</li>
+                                      <li>#KR 스튜디오</li>
+                                      <li>#콘텐츠 제작 임대 서비스</li>
+                                    </ul>
+                                    <div>
+                                      <a href="https://www.malgnsoft.com/contents/production.jsp" tabindex="-1">동영상제작 더보기</a>
+                                    </div>
+                                  </dd>
+                                </dl>
+                                <dl class="slick-slide">
+                                  <dt>
+                                    <img src="./img/service_img04.png" alt="라이브 화상강의 등 다양한 서비스 연동">
+                                  </dt>
+                                  <dd>
+                                    <h4>라이브 화상강의 등 다양한 서비스 연동</h4>
+                                    <p class="stxt">
+                                      변화하는 교육 트랜드에 맞춰 교육 서비스에 필요한 다양한 시스템과의 유연한 연계지원으로 폭넓은 서비스를 제공합니다.
+                                    </p>
+                                    <ul class="tag_cont">
+                                      <li>#PG 결제</li>
+                                      <li>#SMS 문자</li>
+                                      <li>#본인인증</li>
+                                      <li>#화상강의</li>
+                                      <li>#채팅</li>
+                                      <li>#메타버스 </li>
+                                    </ul>
+                                  </dd>
+                                </dl>
+                                <dl class="slick-slide">
+                                  <dt>
+                                    <img src="./img/service_img05.png" alt="매월 세미나 강연, 운영&마케팅 교육">
+                                  </dt>
+                                  <dd>
+                                    <h4>
+                                      매월 세미나 강연, 운영&마케팅 교육
+                                    </h4>
+                                    <p class="stxt">
+                                      온라인 교육 사업 준비, 마케팅, 교육 트랜드 등 매월 1회 온라인 교육 전문가와 플랫폼 전문가의 특별 강의로 고객님들의 운영과 마케팅을 지원합니다.
+                                    </p>
+                                    <ul class="tag_cont">
+                                      <li>#월 1회</li>
+                                      <li>#온라인 교육 준비</li>
+                                      <li>#마케팅 플랫폼</li>
+                                      <li>#교육 트랜드</li>
+                                    </ul>
+                                    <div>
+                                      <a href="https://www.malgnsoft.com/about/news.jsp?cat=52#contents" tabindex="1"> 세미나 더보기</a>
+                                    </div>
+                                  </dd>
+                                </dl>
+                                <dl class="slick-slide">
+                                  <dt>
+                                    <img src="./img/service_img06.png" alt="신속한 응대 고객센터운영">
+                                  </dt>
+                                  <dd>
+                                    <h4>신속한 응대 고개센터 운영</h4>
+                                    <p class="stxt">
+                                      고객의 효율성 높은 학습 지원과 불편함을 최소하기 위한 전문 고객센터 운영으로 긴급 장애 발생 시 즉각적인 대응이 가능하며 , 안정적인 유지보수와 AS 를 지원합니다
+                                    </p>
+                                    <ul class="tag_cont">
+                                      <li>#1666-3412</li>
+                                      <li>#help.malgnsoft.com</li>
+                                      <li>#평일 9:00~17:00</li>
+                                    </ul>
+                                    <div>
+                                      <a href="https://help.malgnsoft.com/main/index.jsp" target="_blank" tabindex="1">고객센터 바로가기</a>
+                                    </div>
+                                  </dd>
+                                </dl>
+                              </div>
+                            </div>
+                            <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- service_end -->
+                    <div id="solution" class="compad ani_effect _mPS2id-t action">
+                      <div class="width1230">
+                        <h3 class="title">
+                          다양한 요구에도 딱 맞는
+                          <br>
+                          <b class="bold">국내 유일</b>
+                          <b class="bold blue">이러닝 솔루션</b>
+                        </h3>
+                        <div class="solution_cont">
+                          <div class="solution effect_cont delay1">
+                            <dl class="dep_tit">
+                              <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01">
+                                <h4>
+                                  클라우드
+                                  <br>
+                                  LMS
+                                </h4>
+                                <span class="btnCircle"></span>
+                                <img src="./img/solution_tit01.png">
+                              </a>
+                            </dl>
+                            <dl class="one dep_con">
+                              <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_01#lms">
+                                <dt></dt>
+                                <dd>
+                                  <h4>공공기관용</h4>
+                                  <span>자세히보기</span>
+                                </dd>
+                              </a>
+                            </dl>
+                            <dl class="two dep_con">
+                              <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_02#lms">
+                                <dt></dt>
+                                <dd>
+                                  <h4>학원/인강용</h4>
+                                  <span>자세히보기</span>
+                                </dd>
+                              </a>
+                            </dl>
+                            <dl class="three dep_con">
+                              <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_03#lms">
+                                <dt></dt>
+                                <dd>
+                                  <h4>기업교육용</h4>
+                                  <span>
+                                    자세히보기
+                                  </span>
+                                </dd>
+                              </a>
+                            </dl>
+                            <dl class="four dep_con">
+                              <a href="https://www.malgnsoft.com/cloud/cloud.jsp?category=sec_04#lms">
+                                <dt></dt>
+                                <dd>
+                                  <h4>협회용</h4>
+                                  <span>자세히 보기</span>
+                                </dd>
+                              </a>
+                            </dl>
+                            <div class="solution effect_cont delay2">
+                              <dl class="dep_tit">
+                                <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01">
+                                  <h4>
+                                    환급과정
+                                    <br>
+                                    LMS
+                                  </h4>
+                                  <span class="btnCircle"></span>
+                                  <img src="./img/solution_tit02.png">
+                                </a>
+                              </dl>
+                              <dl class="five dep_con">
+                                <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01#lms">
+                                  <dt></dt>
+                                  <dd>
+                                    <h4>사업주 환급용</h4>
+                                    <span>자세히 보기</span>
+                                  </dd>
+                                </a>
+                              </dl>
+                              <dl class="six dep_con">
+                                <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_02#lms">
+                                  <dt></dt>
+                                  <dd>
+                                    <h4>내일배움카드용</h4>
+                                    <span>자세히보기</span>
+                                  </dd>
+                                </a>
+                              </dl>
+                              <dl class="dep_tit">
+                                <a href="https://www.malgnsoft.com/lms/" target="_blank">
+                                  <h4>
+                                    스마트 혼합
+                                    <br>
+                                    LMS
+                                  </h4>
+                                  <span class="btnCircle"></span>
+                                  <img src="./img/solution_tit03.png">
+                                </a>
+                              </dl>
+                              <dl class="seven dep_con">
+                                <a href="https://www.malgnsoft.com/lms/" target="_blank">
+                                  <dt></dt>
+                                  <dd>
+                                    <h4>스마트 혼합용</h4>
+                                    <span>자세히보기</span>
+                                  </dd>
+                                </a>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="demo" class="compad width1230 ani_effect _mPS2id-t action">
+                      <h3 class="title">
+                        가입이 필요 없는
+                        <b class="bold">클라우드</b>
+                        <b class="bold blue">데모 체험</b>
+                      </h3>
+                      <ul>
+                        <li class="effect_cont delay1">
+                          <img src="./img/demo_img01.png" alt="관리자모드">
+                          <a href="https://www.malgnsoft.com/main/demo_admin.jsp?type=1" target="_blank" class="moreBtn">
+                            <span>관리자 모드</span>
+                          </a>
+                        </li>
+                        <li class="effect_cont delay2">
+                          <img src="./img/demo_img02.png" alt="학습자모드">
+                          <a href="https://www.malgnsoft.com/main/demo_student.jsp?type=1" target="_blank" class="moreBtn">
+                            <span>학습자 모드</span>
+                          </a>
+                        </li>
+                        <li class="effect_cont delay3">
+                          <img src="./img/demo_img03.png" alt="모바일학습자모드">
+                          <a href="https://demo2.malgnlms.com/mobile/index.jsp" class="moreBtn">
+                            <span>모바일 학습자 모드</span>
+                          </a>
+                          <p>* QR 코드로 접속하여 체험 가능</p>
+                        </li>
+                      </ul>
+                      <dl class="effect_cont delay3">
+                        <dt>환급과정 LMS 체험</dt>
+                        <dd>
+                          <a href="https://www.malgnsoft.com/process/process.jsp?category=sec_01#demo" class="moreBtn_plus moreArrow">
+                            <span>
+                              사업주 환급 / 내일배움카드
+                            </span>
+                          </a>
+                          <a href="https://www.malgnsoft.com/lms" target="_blank" class="moreBtn_plus moreArrow">
+                            <span>
+                              스마트 혼합
+                            </span>
+                          </a>
+                        </dd>
+                      </dl>
+                    </div>
+                    <div id="price" class="compad ani_effect _mPS2id-t action mPS2id-target mPS2id-target-first mPS2id-target-last">
+                      <div class="width1230">
+                        <h3 class="title">
+                          비용 부담을 줄여주는
+                          <b class="bold">합리적인</b>
+                          <b class="bold blue">가격</b>
+                        </h3>
+                        <ul class="sub_tab effect_cont delay1">
+                          <li class="tab_up">
+                            <a>클라우드 LMS</a>
+                          </li>
+                          <li>
+                            <a>환급과정 LMS</a>
+                          </li>
+                        </ul>
+                        <div class="price effect_cont delay2">
+                          <div style="display: block;">
+                            <div class="price_cont price_slick">
+                              <dl>
+                                <dt>
+                                  소호용
+                                  <span>
+                                    500,000원
+                                    <i>/월</i>
+                                  </span>
+                                </dt>
+                                <dd>
+                                  <ul>
+                                    <li>
+                                      <span>추천 대상</span>
+                                      <p>소호 사업자</p>
+                                    </li>
+                                    <li>
+                                      <span>누적 회원수</span>
+                                      <p>2,0000명</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 플레이어</span>
+                                      <p>비보안</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 저장공간</span>
+                                      <p>50GB</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 월 트래픽</span>
+                                      <p>500GB</p>
+                                    </li>
+                                    <li>
+                                      <span>웹 저장공간</span>
+                                      <p>5GB</p>
+                                    </li>
+                                  </ul>
+                                  <a href="https://www.malgnsoft.com/cloud/inquiry.jsp?type=42" class="priceBtn">견적문의</a>
+                                </dd>
+                              </dl>
+                              <dl>
+                                <dt>
+                                  소호용 DRM
+                                  <span>
+                                    890,000원
+                                    <i>/월</i>
+                                  </span>
+                                </dt>
+                                <dd>
+                                  <ul>
+                                    <li>
+                                      <span>추천 대상</span>
+                                      <p>중소형 사업자</p>
+                                    </li>
+                                    <li>
+                                      <span>누적 회원수</span>
+                                      <p>5,000명</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 플레이어</span>
+                                      <p>보안</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 저장공간</span>
+                                      <p>100GB</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 월 트래픽</span>
+                                      <p>500GB</p>
+                                    </li>
+                                    <li>
+                                      <span>웹 저장공간</span>
+                                      <p>5GB</p>
+                                    </li>
+                                  </ul>
+                                  <a href="https://www.malgnsoft.com/cloud/inquiry.jsp?=type43" class="priceBtn">견적문의</a>
+                                </dd>
+                              </dl>
+                              <dl class="best">
+                                <dt>
+                                  기업용
+                                  <span>
+                                    1,000,000원
+                                    <i>/월</i>
+                                  </span>
+                                </dt>
+                                <dd>
+                                  <ul>
+                                    <li>
+                                      <span>추천 대상</span>
+                                      <p>기업,협회, 평생교육원 대학교, 공공기관</p>
+                                    </li>
+                                    <li>
+                                      <span>누적 회원수</span>
+                                      <p>10,000명</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 플레이어</span>
+                                      <p>보안</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 저장공간</span>
+                                      <p>100GB</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 월 트래픽</span>
+                                      <p>1TB</p>
+                                    </li>
+                                    <li>
+                                      <span>웹 저장공간</span>
+                                      <p>10GB</p>
+                                    </li>
+                                  </ul>
+                                  <a href="https://www.malgnsoft.com/cloud/inquiry.jsp?type=44" class="priceBtn">견적문의</a>
+                                </dd>
+                              </dl>
+                              <dl>
+                                <dt>
+                                  대형 사이트
+                                  <span>
+                                    1,500,000원
+                                    <i>/월</i>
+                                  </span>
+                                </dt>
+                                <dd>
+                                  <ul>
+                                    <li>
+                                      <span>추천 대상</span>
+                                      <p>대형 사이트</p>
+                                    </li>
+                                    <li>
+                                      <span>누적 회원수</span>
+                                      <p>무제한</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 플레이어</span>
+                                      <p>보안</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 저장공간</span>
+                                      <p>300GB</p>
+                                    </li>
+                                    <li>
+                                      <span>동영상 월 트래픽</span>
+                                      <p>2TB</p>
+                                    </li>
+                                    <li>
+                                      <span>웹 저장공간</span>
+                                      <p>20GB</p>
+                                    </li>
+                                  </ul>
+                                  <a href="https://www.malgnsoft.com/cloud/inquiry.jsp?type=45" class="priceBtn">견적문의</a>
+                                </dd>
+                              </dl>
+                            </div>
+                            <a href="https://www.malgnsoft.com/cloud/price.jsp" class="moreBtn_plus">
+                              <span>
+                                자세히보기
+                              </span>
+                            </a>
+                          </div>
+                          <div style="display:none">
+                            <div class="price_cont process_cont">
+                              <dl>
+                                <dt>
+                                  <p class="price_tit">사업주 환급 / 내일배움카드</p>
+                                  <h4>
+                                    월3,500,000원
+                                  </h4>
+                                  <span>월 3,000,000원</span>
+                                  <p class="price_sub">(2년약정기준)</p>
+                                  <a href="https://www.malgnsoft.com/process/inquiry.jsp?type=46" class="priceBtn">견적문의</a>
+                                </dt>
+                                <dd>
+                                  <ul>
+                                    <li>
+                                      LMS 기능 자동 업데이트
+                                    </li>
+                                    <li>
+                                      서비스 보완 기능
+                                    </li>
+                                    <li>
+                                      5,000명동시접속 / 수강지원
+                                    </li>
+                                    <li>
+                                      서버사항(고용노동부 기준)
+                                    </li>
+                                    <li>
+                                      <p>-web 서버2대: 각4Core, 16G RAM</p>
+                                      <p>-DB 서버2대: Active -Active 방식</p>
+                                      <p>-스토리지서버: 2TB(스토리지, 백업)</p>
+                                      <p>-CDN 서비스: 저장공간300GB, 트래픽2TB</p>
+                                      <p class="sub_txt">* 고용보험환급, 근로자(재직자내일배움)카드기준상회</p>
+                                    </li>
+                                  </ul>
+                                </dd>
+                              </dl>
+                            </div>
+                            <a href="https://www.malgnsoft.com/process/price.jsp" class="moreBtn_plus">
+                              <span>자세히보기</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="news" class="compad width1230 ani_effect _mPS2id-t action mPS2id-target mPS2id-target-first mPS2id-target-last">
+                      <h3 class="title">
+                        맑은소프트
+                        <b class="bold">소식&</b>
+                        <b class="bold blue">언론보도</b>
+                      </h3>
+                      <div class="news_cont effect_cont delay1" id="news_list" style="height: inherit">
+                        <dl>
+                          <a href="https://www.malgnsoft.com/about/news_view.jsp?id=488" target="_parent">
+                            <span class="cate">언론보도</span>
+                            <dt>
+                              <img src="./img/data/file/news_img1.jpg">
+                            </dt>
+                            <dd>
+                              <p class="date">2022.04.27</p>
+                              <h4>서비스고객만족대상 수상</h4>
+                            </dd>
+                          </a>
+                        </dl>
+                        <dl>
+                          <a href="https://www.malgnsoft.com/about/news_view.jsp?id=479" target="_parent">
+                            <span class="cate">소식</span>
+                            <dt>
+                              <img src="./img/data/file/news_img2.jpg">
+                            </dt>
+                            <dd>
+                              <p class="date">2022.04.18</p>
+                              <h4>홈페이지 리뉴얼 오픈 이벤트</h4>
+                            </dd>
+                          </a>
+                        </dl>
+                        <dl>
+                          <a href="https://www.malgnsoft.com/about/news_view.jsp?id=478" target="_parent">
+                            <span class="cate">세미나</span>
+                            <dt>
+                              <img src="./img/data/file/news_img3.jpg">
+                            </dt>
+                            <dd>
+                              <p class="date">2022.04.15</p>
+                              <h4>4월 맑은소프트 환급솔루션 세미나</h4>
+                            </dd>
+                          </a>
+                        </dl>
+                        <dl>
+                          <a href="https://www.malgnsoft.com/about/news_view.jsp?id=473" target="_parent">
+                            <span class="cate">소식</span>
+                            <dt>
+                              <img src="./img/data/file/news_img4.jpg">
+                            </dt>
+                            <dd>
+                              <p class="date"> 2022.04.15</p>
+                              <h4>IT의 중심 구로디지털단지로 이사가다!</h4>
+                            </dd>
+                          </a>
+                        </dl>
+                      </div>
+                    </div>
+                    <div id="footer">
+                      <div class="width1230">
+                        <div class="foot_top">
+                          <a href="https://www.malgnsoft.com/about/about.jsp">
+                            회사소개
+                          </a>
+                          <a href="https://www.malgnsoft.com/about/recruit.jsp">
+                            인재채용
+                          </a>
+                          <a href="https://www.malgnsoft.com/about/location.jsp">
+                            찾아오시는 길
+                          </a>
+                          <a href="https://www.malgnsoft.com/about/agree.jsp">
+                            이용약관
+                          </a>
+                          <a href="https://www.malgnsoft.com/about/privacy.jsp" class="privacy">
+                            개인정보처리방침
+                          </a>
+                          <ul class="sns none680">
+                            <li class="blog">
+                              <a href="https://blog.naver.com/malgnlms" target="_blank"></a>
+                            </li>
+                            <li class="youtube">
+                              <a href="https://www.youtube.com/channel/UCvg9gC0jdwYZI_vdqPbpdhg" target="_blank"></a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="foot_bottom">
+                          <ul class="sns show680">
+                            <li class="blog">
+                              <a href="https://blog.naver.com/malgnlms" target="_blank"></a>
+                            </li>
+                            <li class="youtube">
+                              <a href="https://www.youtube.com/channel/UCvg9gC0jdwYZI_vdqPbpdhg" target="_blank"></a>
+                            </li>
+                          </ul>
+                          <dl>
+                            <dt>(주)맑은소프트</dt>
+                            <dd>대표자 : 하근호</dd>
+                            <dd>사업자등록번호 : 119-86-39050</dd>
+                            <dd>개인정보관리책임자 : 김도형</dd>
+                            <dd>본사 : 서울 구로구 디지털로 288 대륭포스트타워 1차 1701호</dd>
+                            <dd>연구소 : 서울특별시 동대문구 전농로37길 40, 3층</dd>
+                            <dd>이메일 : malgn@malgnsoft.com</dd>
+                          </dl>
+                          <p>&copy; MALGNSOFT INC. ALL RIGHTS RESERVED.</p>
+                          <!-- <div class="center">
+                            <h4 onclick="window.open('https://help.malgnsoft.com/main/index.jsp')">"고객센터"</h4>
+                            <div>
+                              <h5>1666 - 3412</h5>
+                              <dl>
+                                <dt>사아담시간</dt>
+                                <dd>평일 09:00 ~ 17:00</dd>
+                              </dl>
+                              <dl>
+                                <dt>휴무일</dt>
+                                <dd>토요일, 일요일, 공휴일</dd>
+                              </dl>
+                            </div>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+              </div>
+    </body>
+</html>
